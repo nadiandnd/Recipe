@@ -9,7 +9,9 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A test Recipe', 'This is a simply test', 
-    'https://www.kyleecooks.com/wp-content/uploads/2020/07/Italian-Mozzarella-Chicken-21-1024x1536.jpg')
+    'https://i.pinimg.com/originals/ac/3b/a2/ac3ba2c89be8c74b3567c72aec607c25.jpg'),
+    new Recipe('A test Recipe', 'This is a simply test', 
+    'https://i.pinimg.com/originals/ac/3b/a2/ac3ba2c89be8c74b3567c72aec607c25.jpg'),
   ];
 
   constructor() { }
